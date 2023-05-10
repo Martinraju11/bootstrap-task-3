@@ -1,0 +1,58 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;	
+	font-family: 'Roboto', sans-serif;
+	
+}
+@media(min-width:320px){
+
+.pic-2,.pic-3{
+display:none;
+}
+
+.pic-1 img{
+	width:100%;
+}
+
+}
+@media(min-width:620px){
+
+.pic-2,.pic-3{
+display:none;
+}
+.pic-1 img{
+	width:100%;
+	height:auto;
+}
+
+
+}
+@media(min-width:1000px){
+.pic-2,.pic-3{
+display:block;
+}
+.pic-1 img{
+	width:100%;
+	z-index:300;
+}
+.pic-1{
+	position:relative;
+	z-index:40;
+}
+.card-left{
+	position:relative;	
+}
+.pic-2{
+	position:absolute;
+	top:10%;
+	left:-35%;
+	
+}
+.pic-3{
+	position:absolute;
+	top:28%;
+	left:70%;
+	z-index:100;
+}
+}
